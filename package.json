@@ -1,0 +1,9 @@
+{
+  "name": "facebook-chat-socket",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.11.2",
+    "socket.io": "~1.3.3",
+    "mysql": "~2.5.5"
+  }
+}
