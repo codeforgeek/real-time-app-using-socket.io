@@ -36,7 +36,6 @@ io.on('connection',function(socket){
 var add_status = function (status,callback) {
     pool.getConnection(function(err,connection){
         if (err) {
-          connection.release();
           callback(false);
           return;
         }
